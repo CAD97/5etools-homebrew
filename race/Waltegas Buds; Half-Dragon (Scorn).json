@@ -1,0 +1,71 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "WaltegasBuds",
+				"full": "Waltega's Buds",
+				"abbreviation": "WB",
+				"authors": [
+					"Waltega [he/him]",
+					"Crystal [she/they]"
+				],
+				"convertedBy": [
+					"Crystal [she/they]"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/cad97/5etools-homebrew"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [
+		{
+			"name": "Half-Dragon (Scorn)",
+			"source": "WaltegasBuds",
+			"page": 0,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"resist": [
+				"necrotic"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Breath Weapon",
+					"entries": [
+						"When you take the {@action Attack} action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Constitution saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes {@damage 1d8} Necrotice damage and any creatures they attack have resistance to Cold, Fire, Acid, Poison, and Lightning damage for the duration of that attack. They may repeat this save at the end of each of their turns to end this effect. This damage increases by {@damage 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8}).",
+						"You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Draconic Resistance",
+					"entries": [
+						"You have resistance to Necrotic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Psionic Mind",
+					"entries": [
+						"You can send telepathic messages to any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand these messages, but it must be able to understand at least one language to comprehend them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Half-Dragon Flight",
+					"entries": [
+						"Starting at 5th level, you can fly using your wings for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can't do so again until you finish a long rest."
+					]
+				}
+			],
+			"hasFluff": false,
+			"hasFluffImages": false
+		}
+	]
+}
